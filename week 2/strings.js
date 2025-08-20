@@ -54,7 +54,28 @@ console.log(poem)
 
 
 //common string methods
-//console.log(text.upperCase())
+let text = "Hello , Javascript";
+console.log(text.toUpperCase());
+console.log(text.toLowerCase());
+console.log(text.slice(0, 5));
+console.log(text.replace("JavaScript", "world"));
+console.log(text.includes("Java"));
+console.log(text.length);
+
+
+//strings datatype(casting)
+let number = 42;
+let boolean = true;
+let str1 = String(number);
+let str2 = number.toString();
+let str3 = boolean + "";
+console.log(str1);
+console.log(str2);
+console.log(str3);
+console.log(typeof str1);
+
+
+
 
 
 //embedded expressions
